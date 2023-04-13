@@ -139,5 +139,6 @@
     }
     .mobile {
         display: flex;
+        text-align: center;
     }
   }
