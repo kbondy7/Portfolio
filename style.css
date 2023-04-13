@@ -18,7 +18,9 @@
 ::-webkit-scrollbar {
   display: none;
 }
-
+.mobile{
+    display: none;
+}
 .header{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -130,3 +132,12 @@
     color:#3c065a;
     font-weight: 300;
 }
+
+@media screen and (max-width: 900px) {
+    .website {
+      display:none;
+    }
+    .mobile {
+        display: flex;
+    }
+  }
